@@ -85,7 +85,7 @@ export const portfolioData: PortfolioConfig = {
 
   socials: {
     github: "https://github.com/aravindsa28",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/aravind-s-a-705a92446",
     email: "aravind@example.com",
   },
 
