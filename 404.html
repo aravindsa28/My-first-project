@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 - Page Not Found | Aravind S A</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .notfound-container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+      position: relative;
+      z-index: 2;
+    }
+    .code-404 {
+      font-size: clamp(5rem, 15vw, 10rem);
+      font-weight: 800;
+      line-height: 1;
+      letter-spacing: -0.05em;
+      background: linear-gradient(135deg, #8b5cf6, #60a5fa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="ambient-canvas-wrapper" aria-hidden="true">
+    <div class="ambient-mesh mesh-1"></div>
+    <div class="ambient-mesh mesh-2"></div>
+    <div class="ambient-grid"></div>
+  </div>
+
+  <div class="notfound-container">
+    <div class="brand-monogram" style="margin-bottom: 2rem;">
+      <span class="monogram-badge">ASA</span>
+    </div>
+    <div class="code-404">404</div>
+    <h1 style="font-size: 2rem; font-weight: 700; margin-bottom: 0.75rem;">Page Not Found</h1>
+    <p style="color: var(--text-muted); max-width: 450px; margin-bottom: 2rem;">
+      The page or coordinate you requested does not exist or has been shifted in spacetime.
+    </p>
+    <a href="index.html" class="btn btn-primary">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="19" y1="12" x2="5" y2="12"></line>
+        <polyline points="12 19 5 12 12 5"></polyline>
+      </svg>
+      <span>Return Home</span>
+    </a>
+  </div>
+</body>
+</html>
